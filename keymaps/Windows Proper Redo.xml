@@ -35,4 +35,5 @@
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="ShowFilterPopup" />
+  <action id="Terminal.SwitchFocusToEditor" />
 </keymap>
