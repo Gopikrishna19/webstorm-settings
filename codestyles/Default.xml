@@ -1,4 +1,8 @@
 <code_scheme name="Default" version="173">
+  <CssCodeStyleSettings>
+    <option name="HEX_COLOR_LOWER_CASE" value="true" />
+    <option name="HEX_COLOR_LONG_FORMAT" value="true" />
+  </CssCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
