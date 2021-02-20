@@ -10,6 +10,7 @@
       <mapping ext="ncx" type="XML" />
       <mapping ext="opf" type="XML" />
       <removed_mapping pattern=".tuyarc" approved="true" type="Ini" />
+      <removed_mapping pattern=".web-pushrc" approved="true" type="PLAIN_TEXT" />
       <mapping pattern=".smartrc" type="Ini" />
     </extensionMap>
   </component>
