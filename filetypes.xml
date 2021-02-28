@@ -4,6 +4,7 @@
       <mapping ext="gyp" type="JSON" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping ext="aco" type="PLAIN_TEXT" />
       <mapping ext="wasm" type="PLAIN_TEXT" />
       <mapping ext="node" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
