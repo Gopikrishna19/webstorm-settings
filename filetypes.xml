@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".smartrc" type="Ini" />
       <mapping ext="gyp" type="JSON" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
@@ -9,9 +10,9 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="ncx" type="XML" />
       <mapping ext="opf" type="XML" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".tuyarc" approved="true" type="Ini" />
       <removed_mapping pattern=".web-pushrc" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern=".smartrc" type="Ini" />
     </extensionMap>
   </component>
 </application>
