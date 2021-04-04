@@ -3,6 +3,9 @@
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
     <option name="HEX_COLOR_LONG_FORMAT" value="true" />
   </CssCodeStyleSettings>
+  <HCL-Terraform>
+    <option name="PROPERTY_ALIGNMENT" value="2" />
+  </HCL-Terraform>
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
@@ -18,6 +21,10 @@
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
     <option name="JSX_ATTRIBUTE_VALUE" value="Based on type" />
   </JSCodeStyleSettings>
+  <codeStyleSettings language="HCL-Terraform">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="SPACE_WITHIN_BRACES" value="true" />
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <arrangement>
