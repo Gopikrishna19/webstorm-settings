@@ -378,6 +378,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.gohtml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.go-template" />
+              <option name="myPluginName" value="Go Template" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.gql">
           <value>
             <plugin>
@@ -823,6 +831,22 @@
               <option name="myPluginId" value="JavaScript" />
               <option name="myPluginName" value="JavaScript and TypeScript" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.kubernetes-helm-txt">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.kubernetes" />
+              <option name="myPluginName" value="com.intellij.kubernetes" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.kubernetes-helm-yaml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.kubernetes" />
+              <option name="myPluginName" value="com.intellij.kubernetes" />
             </plugin>
           </value>
         </entry>
@@ -1601,6 +1625,24 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*playbook.yaml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myPluginName" value="YAML" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*playbook.yml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myPluginName" value="YAML" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".babelrc">
           <value>
             <plugin>
@@ -1845,6 +1887,24 @@
             <plugin>
               <option name="myPluginId" value="JavaScript" />
               <option name="myPluginName" value="JavaScript and TypeScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="main.yaml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myPluginName" value="YAML" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="main.yml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myPluginName" value="YAML" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
