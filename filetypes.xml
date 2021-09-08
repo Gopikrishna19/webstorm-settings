@@ -4,6 +4,7 @@
       <mapping ext="tpl" type="Go Template" />
       <mapping pattern=".smartrc" type="Ini" />
       <mapping pattern=".env" type="Ini" />
+      <mapping pattern=".releaserc" type="JSON" />
       <mapping ext="gyp" type="JSON" />
       <mapping ext="aco" type="PLAIN_TEXT" />
       <mapping ext="wasm" type="PLAIN_TEXT" />
