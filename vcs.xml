@@ -74,6 +74,10 @@
           <option name="url" value="git@github.com:wishlez/wishlez-logger.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:wishlez/wishlez-ui.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Projects\Websites" />
