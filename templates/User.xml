@@ -24,4 +24,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="rfnpt" value="import {FunctionComponent} from 'react';&#10;&#10;type Props = {}&#10;&#10;export type $ComponentName$ = FunctionComponent&lt;Props&gt;&#10;&#10;export const $ComponentName$: $ComponentName$ = (props) =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;); " description="React Functional Component with Props in Typescipt" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
