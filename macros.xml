@@ -1,0 +1,47 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="asdf">
+      <action id="NextTemplateVariable" />
+      <action id="NextTemplateVariable" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorRight" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorRightWithSelection" />
+      <action id="EditorBackSpace" />
+      <action id="EditorLineEnd" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorPreviousWordWithSelection" />
+      <action id="EditorPreviousWordWithSelection" />
+      <action id="EditorBackSpace" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorBackSpace" />
+      <action id="ReformatCode" />
+      <action id="SaveAll" />
+    </macro>
+  </component>
+</application>
