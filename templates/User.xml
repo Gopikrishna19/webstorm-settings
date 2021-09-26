@@ -31,7 +31,7 @@
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rfnt" value="export const $ComponentName$ = () =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;); " description="React Functional Component without Props in Typescipt" toReformat="true" toShortenFQNames="true">
+  <template name="rfnt" value="import {FunctionComponent} from 'react';&#10;&#10;export type $ComponentName$ = FunctionComponent&#10;&#10;export const $ComponentName$: $ComponentName$ = () =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;); " description="React Functional Component without Props in Typescipt" toReformat="true" toShortenFQNames="true">
     <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
