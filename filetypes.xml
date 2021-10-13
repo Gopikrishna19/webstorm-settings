@@ -14,6 +14,7 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="ncx" type="XML" />
       <mapping ext="opf" type="XML" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".tuyarc" approved="true" type="Ini" />
       <removed_mapping pattern=".web-pushrc" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
