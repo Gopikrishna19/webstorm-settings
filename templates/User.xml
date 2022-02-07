@@ -58,8 +58,29 @@
       <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
   </template>
-  <template name="rfntn" value="import {FunctionComponent} from 'react';&#10;&#10;type $ComponentName$ = FunctionComponent&#10;&#10;const $ComponentName$: $ComponentName$ = () =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;);&#10;&#10;export default $ComponentName$" description="React Functional Component without Props in Typescipt (Next)" toReformat="true" toShortenFQNames="true">
+  <template name="nct" value="import {FunctionComponent} from 'react';&#10;&#10;type $ComponentName$ = FunctionComponent&#10;&#10;const $ComponentName$: $ComponentName$ = () =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;);&#10;&#10;export default $ComponentName$" description="React Functional Component without Props in Typescipt (Next)" toReformat="true" toShortenFQNames="true">
     <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ssp" value="import {GetServerSideProps} from 'next';&#10;&#10;export const getServerSideProps: GetServerSideProps = async (context) =&gt; {&#10;    return {&#10;        props: {}&#10;    }&#10;};" description="Get server side props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ncpt" value="import {FunctionComponent} from 'react';&#10;&#10;type Props = {$Props$}&#10;&#10;type $ComponentName$ = FunctionComponent&lt;Props&gt;&#10;&#10;const $ComponentName$: $ComponentName$ = (props) =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;);&#10;&#10;export default $ComponentName$" description="React Functional Component with Props in Typescipt (Next)" toReformat="true" toShortenFQNames="true">
+    <variable name="Props" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="napit" value="import {NextApiHandler} from 'next';&#10;&#10;const $handler$: NextApiHandler = async (req, res) =&gt; {&#10;$END$    &#10;};&#10;&#10;export default $handler$;&#10;" description="Next API handler in Typescript" toReformat="false" toShortenFQNames="true">
+    <variable name="handler" expression="camelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
