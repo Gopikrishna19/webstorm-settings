@@ -24,14 +24,14 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rfnpt" value="import {FunctionComponent} from 'react';&#10;&#10;type Props = {$Props$}&#10;&#10;export type $ComponentName$ = FunctionComponent&lt;Props&gt;&#10;&#10;export const $ComponentName$: $ComponentName$ = (props) =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;); " description="React Functional Component with Props in Typescipt" toReformat="true" toShortenFQNames="true">
+  <template name="rfnpt" value="import {FunctionComponent} from 'react';&#10;&#10;type Props = {$Props$}&#10;&#10;export const $ComponentName$: FunctionComponent&lt;Props&gt; = (props) =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;); " description="React Functional Component with Props in Typescipt" toReformat="true" toShortenFQNames="true">
     <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <variable name="Props" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rfnt" value="import {FunctionComponent} from 'react';&#10;&#10;export type $ComponentName$ = FunctionComponent&#10;&#10;export const $ComponentName$: $ComponentName$ = () =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;); " description="React Functional Component without Props in Typescipt" toReformat="true" toShortenFQNames="true">
+  <template name="rfnt" value="import {FunctionComponent} from 'react';&#10;&#10;export const $ComponentName$: FunctionComponent = () =&gt; (&#10;    &lt;&gt;&#10;        $END$&#10;    &lt;/&gt;&#10;); " description="React Functional Component without Props in Typescipt" toReformat="true" toShortenFQNames="true">
     <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
