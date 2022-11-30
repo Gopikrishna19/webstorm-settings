@@ -6,16 +6,15 @@
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".releaserc" type="JSON" />
       <mapping ext="gyp" type="JSON" />
+      <mapping ext="tmpl" type="PLAIN_TEXT" />
+      <mapping ext="node" type="PLAIN_TEXT" />
       <mapping ext="aco" type="PLAIN_TEXT" />
       <mapping ext="wasm" type="PLAIN_TEXT" />
-      <mapping ext="node" type="PLAIN_TEXT" />
-      <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="atn" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
-      <mapping ext="ncx" type="XML" />
       <mapping ext="opf" type="XML" />
-      <mapping pattern="pubspec.lock" type="YAML" />
-      <mapping pattern=".analysis_options" type="YAML" />
+      <mapping ext="ncx" type="XML" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".tuyarc" approved="true" type="Ini" />
       <removed_mapping pattern=".web-pushrc" approved="true" type="PLAIN_TEXT" />
